@@ -1,17 +1,13 @@
-Nginx IP2Location module
-------------------------
+# IP2Location Nginx
 
-Description:
-------------
+IP2Location Nginx module enables user to easily perform client's IP to geographical location lookup by using IP2Location database.
 
-The Nginx IP2Location module enables user to easily perform client's IP to geographical location lookup by using IP2Location database.
+Supported IPv4 and IPv6 address.
 
-The IP2Location database can be downloaded from http://lite.ip2location.com (Free) or http://www.ip2location.com (Commercial).
+For more details, please visit:
+[http://www.ip2location.com/developers/nginx](http://www.ip2location.com/developers/nginx)
 
-
-Installation:
-------------
-
+# Installation
 1. Download IP2location C library from http://www.ip2location.com/developers/c
 2. Change the path to IP2Location library in "ngx_http_ip2location_module.c".
 3. Re-compile Nginx from source to include this module. Add the below directive into the compile of Nginx:
@@ -20,22 +16,22 @@ Installation:
 5. make install
 
 
-Usage:
------
-
+# Usage
 Change your Nginx config file to include the 'ip2location_database' directive:
 
-	ip2location_database /absolute/path/to/IP2LOCATION-LITE-DB1.BIN;
+    ip2location_database /absolute/path/to/IP2LOCATION-LITE-DB1.BIN;
 
 
 The following variables will be made available in Nginx:
 
-	$ip2location_country_code
-	$ip2location_country_name
+    $ip2location_country_code
+    $ip2location_country_name
 
-	
-Support
--------
-Please visit us at http://www.ip2location.com for services and databases we offer.
+# Sample BIN Databases
+* Download free IP2Location LITE databases at [http://lite.ip2location.com](http://lite.ip2location.com)  
+* Download IP2Location sample databases at [http://www.ip2location.com/developers](http://www.ip2location.com/developers)
 
-For support, please email us at support@ip2location.com
+# Support
+Email: support@ip2location.com.  
+URL: [http://www.ip2location.com](http://www.ip2location.com)
+
