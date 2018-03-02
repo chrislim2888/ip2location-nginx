@@ -5,10 +5,10 @@ IP2Location Nginx module enables user to easily perform client's IP to geographi
 Supported IPv4 and IPv6 address.
 
 For more details, please visit:
-[http://www.ip2location.com/developers/nginx](http://www.ip2location.com/developers/nginx)
+[https://www.ip2location.com/developers/nginx](https://www.ip2location.com/developers/nginx)
 
 # Installation
-1. Download IP2location C library from http://www.ip2location.com/developers/c
+1. Download IP2location C library from https://www.ip2location.com/developers/c
 2. Change the path to IP2Location library in "ngx_http_ip2location_module.c".
 3. Re-compile Nginx from source to include this module. Add the below directive into the compile of Nginx:
    ./configure --add-module=/absolute/path/to/nginx-ip2location-1.0
@@ -28,10 +28,10 @@ The following variables will be made available in Nginx:
     $ip2location_country_name
 
 # Sample BIN Databases
-* Download free IP2Location LITE databases at [http://lite.ip2location.com](http://lite.ip2location.com)  
-* Download IP2Location sample databases at [http://www.ip2location.com/developers](http://www.ip2location.com/developers)
+* Download free IP2Location LITE databases at [https://lite.ip2location.com](https://lite.ip2location.com)  
+* Download IP2Location sample databases at [https://www.ip2location.com/developers](https://www.ip2location.com/developers)
 
 # Support
 Email: support@ip2location.com.  
-URL: [http://www.ip2location.com](http://www.ip2location.com)
+URL: [https://www.ip2location.com](https://www.ip2location.com)
 
