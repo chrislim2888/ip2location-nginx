@@ -1,3 +1,6 @@
+# IMPORTANT:
+# THIS PROJECT WILL NO LONGER BE MAINTAINED. PLEASE VISIT https://github.com/ip2location/ip2location-nginx FOR THE LATEST UPDATE.
+
 # IP2Location Nginx
 
 IP2Location Nginx module enables user to easily perform client's IP to geographical location lookup by using IP2Location database.
